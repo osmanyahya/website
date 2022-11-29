@@ -1,0 +1,31 @@
+body {
+    margin: 0; 
+    font-family: sans-serif;
+    
+}
+.header {
+    padding: 12px;
+    display: flex;
+  
+  background-color: white;
+}
+.logo{margin-right: auto;}
+button{
+  background-color: orange;
+  padding: 12px 30px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.presentation {
+  background: url('darren-wanliss-aUz5UnhPnOM-unsplash.jpg');
+  color: white;
+  padding: 20px;
+}
+@media (min-width:600px) {
+  
+.section {
+  display:flex;
+}
+}
